@@ -1,14 +1,15 @@
 import 'package:equatable/equatable.dart';
+import '../../data/models/workout_model.dart';
 
 class WorkoutState extends Equatable {
-  final List<Map<String, dynamic>> workouts;
+  final List<Workout> workouts;
 
   const WorkoutState({
     this.workouts = const [],
   });
 
   WorkoutState copyWith({
-    List<Map<String, dynamic>>? workouts,
+    List<Workout>? workouts,
   }) {
     return WorkoutState(
       workouts: workouts ?? this.workouts,
