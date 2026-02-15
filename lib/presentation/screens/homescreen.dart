@@ -11,11 +11,52 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white70,
-        title: const Text(
-          "Home",
-          style: TextStyle(color: Colors.black, fontSize: 23),
+        elevation: 0,
+        backgroundColor: Colors.white,
+        centerTitle: false,
+        title: Row(
+          children: const [
+            Text(
+              "Home",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 22,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+            SizedBox(width: 4),
+            Icon(
+              Icons.keyboard_arrow_down,
+              color: Colors.black,
+            ),
+          ],
         ),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.search, color: Colors.black),
+            onPressed: () {},
+          ),
+          Stack(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.notifications_none, color: Colors.black),
+                onPressed: () {},
+              ),
+              Positioned(
+                right: 10,
+                top: 10,
+                child: Container(
+                  width: 8,
+                  height: 8,
+                  decoration: const BoxDecoration(
+                    color: Colors.green,
+                    shape: BoxShape.circle,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ],
       ),
       body: Container(
         color: Colors.white70,
@@ -58,16 +99,6 @@ class HomeScreen extends StatelessWidget {
             );
           },
         ),
-      ),
-
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (_) => const WorkoutScreen()),
-          );
-        },
-        child: const Icon(Icons.add),
       ),
     );
   }

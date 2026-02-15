@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import 'data/repositary/exercise_repository.dart';
+import 'features/auth/presentation/bloc/auth_bloc.dart';
 import 'presentation/app.dart';
 import 'data/models/workout_model.dart';
 import 'data/models/exercise_model.dart';
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  // Initialize Hive
+  await Supabase.initialize(
+    url: 'https://lukqwotdfgfiecfwtsxj.supabase.co',
+    anonKey: 'sb_publishable_1dcdaEAR-r0tRsSc6B_0KQ_hEXZ7khO',
+  );
   await Hive.initFlutter();
 
   // Register adapters
@@ -23,5 +27,10 @@ void main() async {
   final exerciseRepo = ExerciseRepository();
   await exerciseRepo.loadExercisesIfNeeded();
 
-  runApp(const GymApp());
+  runApp(
+    BlocProvider(
+      create: (_) => AuthBloc(),
+      child: const GymApp(),
+    ),
+  );
 }
