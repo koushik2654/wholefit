@@ -10,10 +10,20 @@ class Workout {
   @HiveField(1)
   final int reps;
 
-  // You can add more fields later (category, timestamp)
+  @HiveField(2)
+  final String bodyPart;
+
+  @HiveField(3)
+  final String equipment;
+
+  @HiveField(4)
+  final String gifUrl;
 
   Workout({
     required this.name,
     required this.reps,
+    required this.bodyPart,
+    required this.equipment,
+    required this.gifUrl,
   });
 }

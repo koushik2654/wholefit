@@ -1,0 +1,427 @@
+[
+  {
+    "id": "ch1",
+    "name": "Push Up",
+    "bodyPart": "chest",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch2",
+    "name": "Barbell Bench Press",
+    "bodyPart": "chest",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch3",
+    "name": "Incline Dumbbell Press",
+    "bodyPart": "chest",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch4",
+    "name": "Decline Bench Press",
+    "bodyPart": "chest",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch5",
+    "name": "Cable Chest Fly",
+    "bodyPart": "chest",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch6",
+    "name": "Chest Dips",
+    "bodyPart": "chest",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch7",
+    "name": "Dumbbell Chest Fly",
+    "bodyPart": "chest",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch8",
+    "name": "Pec Deck Machine",
+    "bodyPart": "chest",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch9",
+    "name": "Incline Push Up",
+    "bodyPart": "chest",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ch10",
+    "name": "Decline Push Up",
+    "bodyPart": "chest",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+
+  {
+    "id": "bk1",
+    "name": "Pull Up",
+    "bodyPart": "back",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk2",
+    "name": "Deadlift",
+    "bodyPart": "back",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk3",
+    "name": "Bent Over Row",
+    "bodyPart": "back",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk4",
+    "name": "Lat Pulldown",
+    "bodyPart": "back",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk5",
+    "name": "Seated Cable Row",
+    "bodyPart": "back",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk6",
+    "name": "Single Arm Dumbbell Row",
+    "bodyPart": "back",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk7",
+    "name": "T-Bar Row",
+    "bodyPart": "back",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk8",
+    "name": "Hyperextension",
+    "bodyPart": "back",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk9",
+    "name": "Machine Row",
+    "bodyPart": "back",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "bk10",
+    "name": "Straight Arm Pulldown",
+    "bodyPart": "back",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+
+  {
+    "id": "lg1",
+    "name": "Barbell Squat",
+    "bodyPart": "legs",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg2",
+    "name": "Leg Press",
+    "bodyPart": "legs",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg3",
+    "name": "Lunges",
+    "bodyPart": "legs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg4",
+    "name": "Romanian Deadlift",
+    "bodyPart": "legs",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg5",
+    "name": "Leg Curl",
+    "bodyPart": "legs",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg6",
+    "name": "Leg Extension",
+    "bodyPart": "legs",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg7",
+    "name": "Calf Raise",
+    "bodyPart": "legs",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg8",
+    "name": "Bulgarian Split Squat",
+    "bodyPart": "legs",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg9",
+    "name": "Goblet Squat",
+    "bodyPart": "legs",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "lg10",
+    "name": "Sled Push",
+    "bodyPart": "legs",
+    "equipment": "sled",
+    "gifUrl": ""
+  },
+
+  {
+    "id": "sh1",
+    "name": "Overhead Press",
+    "bodyPart": "shoulders",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh2",
+    "name": "Dumbbell Shoulder Press",
+    "bodyPart": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh3",
+    "name": "Lateral Raise",
+    "bodyPart": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh4",
+    "name": "Front Raise",
+    "bodyPart": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh5",
+    "name": "Rear Delt Fly",
+    "bodyPart": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh6",
+    "name": "Face Pull",
+    "bodyPart": "shoulders",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh7",
+    "name": "Arnold Press",
+    "bodyPart": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh8",
+    "name": "Shrugs",
+    "bodyPart": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh9",
+    "name": "Machine Shoulder Press",
+    "bodyPart": "shoulders",
+    "equipment": "machine",
+    "gifUrl": ""
+  },
+  {
+    "id": "sh10",
+    "name": "Upright Row",
+    "bodyPart": "shoulders",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+
+  {
+    "id": "ar1",
+    "name": "Bicep Curl",
+    "bodyPart": "arms",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar2",
+    "name": "Hammer Curl",
+    "bodyPart": "arms",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar3",
+    "name": "Tricep Pushdown",
+    "bodyPart": "arms",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar4",
+    "name": "Skull Crushers",
+    "bodyPart": "arms",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar5",
+    "name": "Concentration Curl",
+    "bodyPart": "arms",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar6",
+    "name": "Overhead Tricep Extension",
+    "bodyPart": "arms",
+    "equipment": "dumbbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar7",
+    "name": "Cable Curl",
+    "bodyPart": "arms",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar8",
+    "name": "Reverse Curl",
+    "bodyPart": "arms",
+    "equipment": "barbell",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar9",
+    "name": "Tricep Dips",
+    "bodyPart": "arms",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ar10",
+    "name": "Cable Overhead Extension",
+    "bodyPart": "arms",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+
+  {
+    "id": "ab1",
+    "name": "Crunches",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab2",
+    "name": "Leg Raises",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab3",
+    "name": "Plank",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab4",
+    "name": "Russian Twist",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab5",
+    "name": "Sit Up",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab6",
+    "name": "Mountain Climbers",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab7",
+    "name": "Hanging Leg Raise",
+    "bodyPart": "abs",
+    "equipment": "bar",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab8",
+    "name": "Cable Crunch",
+    "bodyPart": "abs",
+    "equipment": "cable",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab9",
+    "name": "V-Ups",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  },
+  {
+    "id": "ab10",
+    "name": "Flutter Kicks",
+    "bodyPart": "abs",
+    "equipment": "bodyweight",
+    "gifUrl": ""
+  }
+]

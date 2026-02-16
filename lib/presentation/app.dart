@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:wholefit/logic/workout/workout_event.dart';
 import 'package:wholefit/presentation/screens/homescreen.dart';
 
+import '../features/auth/presentation/pages/auth_wrapper.dart';
 import '../logic/workout/workout_bloc.dart';
 
 
@@ -18,7 +19,7 @@ class GymApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: const HomeScreen(),
+        home: const AuthWrapper(),
       ),
     );
   }
